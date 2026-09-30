@@ -24,7 +24,7 @@ jobs:
         channel: 'stable'
 
     - name: Generate missing project platforms
-      run: flutter create . --platforms=android
+      run: flutter create . --platforms=android --project-name=gold_scalp_swing_bot
 
     - name: Get dependencies
       run: flutter pub get
